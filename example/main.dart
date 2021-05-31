@@ -1,11 +1,11 @@
 import "dart:io";
 
-import 'package:mustache/mustache.dart';
 import 'package:mustache_recase/mustache_recase.dart' as mustache_recase;
+import 'package:mustache_template/mustache.dart';
 
 main(List<String> args) {
   stdout.write("Provide a test string: ");
-  String testVar = stdin.readLineSync();
+  String? testVar = stdin.readLineSync();
 
   String templateSource = '';
   //@generationAfter("new-case_example_template")

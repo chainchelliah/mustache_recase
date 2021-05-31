@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.0
+
+- NNBD migration
+
 ## 2.0.3
 
 - Changed to mustache_template that doesn't depends on mirrors for greater compatibility
